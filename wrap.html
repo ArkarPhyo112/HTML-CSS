@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wrap</title>
+    <style>
+        .wrap
+        {
+            display: flex;
+        }
+        .wrap div
+        {
+            flex-grow: 1;
+            height: 200px;
+            background-color: cyan;
+            margin: 10px;
+            text-align: center;
+            line-height: 200px;
+        }
+        .wrap div:nth-child(2n)
+        {
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
+<div class="wrap">
+<div>A</div>
+<div>B</div>
+<div>C</div>
+</div>
